@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Data files
+.nltk_data
+scrape.py
+tor_scrape.py
