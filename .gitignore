@@ -102,5 +102,4 @@ ENV/
 
 # Data files
 .nltk_data
-scrape.py
-tor_scrape.py
+glove.6B.100d.txt
