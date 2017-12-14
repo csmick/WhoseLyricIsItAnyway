@@ -75,4 +75,4 @@ if __name__ == "__main__":
     model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['acc'])
 
     # Test model
-    model.fit(x_train, y_train, validation_data=(x_test, y_test), epochs=5, batch_size=128)
+    model.fit(x_train, y_train, validation_data=(x_test, y_test), epochs=10, batch_size=128)
